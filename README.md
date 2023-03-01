@@ -2,6 +2,8 @@
 
 ### The goal of the project is to analyze the career of Len Wickwar - the boxer who fought the most professional boxing fights in history.
 
+### Original data pulled from here: https://en.wikipedia.org/wiki/Len_Wickwar
+
 ### For this project, I utilized the python libraries BeautifulSoup, Pandas, Matplotlib, and Requests. The links to the documentation are listed below:
 
 #### BeautifulSoup: https://beautiful-soup-4.readthedocs.io/en/latest/
@@ -9,7 +11,7 @@
 #### Matplotlib: https://matplotlib.org/stable/index.html
 #### Requests: https://requests.readthedocs.io/en/latest/
 
-### Both my data and the source data has a CC BY-SA license, so you can copy and modify the data.
+### My data has a CC-0 and the source data has a CC BY-SA license, so you can copy and modify the data.
 
 ### In the final processed data set, I had eight attributes:
 
