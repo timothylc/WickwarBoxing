@@ -17,7 +17,7 @@
 
 #### 1. No. - has a data type of int (integer), the order of fights Len had (1 was his first fight, while 473 is his 473th fight), kept this attribute in because the indices were imported with his most recent fights first.
 #### 2. Opponent - has a str (string) data type, it is the name of the opponent that he fought in a boxing match.
-#### 3. Type - has a str (string) data type, states how the result of the fight was decided, there was a knockout (KO), total knockout (TKO), if the winner was determined by the amounts accumulated (PTS), if there was a disqualification (DQ), and if a fight quits (RTD)
+#### 3. Type - has a str (string) data type, states how the result of the fight was decided, there was a knockout (KO), technical knockout (TKO), if the winner was determined by the amounts accumulated (PTS), if there was a disqualification (DQ), and if a fight quits (RTD)
 #### 4: Year - has a int (integer) data type, it is the year that the boxing match occurred in
 #### 5: Result_Draw: has a integer data type (boolean represented by binary), 0 means it was not the result, 1 means the result was a draw
 #### 6: Result_Loss: has a integer data type (boolean represented by binary), 0 means it was not the result, 1 means the result was a loss
