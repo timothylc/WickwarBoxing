@@ -17,10 +17,10 @@
 #### 2. Opponent - has a str (string) data type, it is the name of the opponent that he fought in a boxing match.
 #### 3. Type - has a str (string) data type, states how the result of the fight was decided, there was a knockout (KO), total knockout (TKO), if the winner was determined by the amounts accumulated (PTS), if there was a disqualification (DQ), and if a fight quits (RTD)
 #### 4: Year - has a int (integer) data type, it is the year that the boxing match occurred in
-#### 5: Result_Draw: has a boolean data type (represented by binary, so integer), 0 means it was not the result, 1 means the result was a draw
-#### 6: Result_Loss: has a boolean data type (represented by binary, so integer), 0 means it was not the result, 1 means the result was a loss
-#### 7: Result_NC: has a boolean data type (represented by binary, so integer), 0 means it was not the result, 1 means the result was a no count
-#### 8: Result_Win: has a boolean data type (represented by binary, so integer), 0 means it was not the result, 1 means the result was a win
+#### 5: Result_Draw: has a integer data type (boolean represented by binary), 0 means it was not the result, 1 means the result was a draw
+#### 6: Result_Loss: has a integer data type (boolean represented by binary), 0 means it was not the result, 1 means the result was a loss
+#### 7: Result_NC: has a integer data type (boolean represented by binary), 0 means it was not the result, 1 means the result was a no count
+#### 8: Result_Win: has a integer data type (boolean represented by binary), 0 means it was not the result, 1 means the result was a win
 
 #### Result was an categorical attribute that was split into 4 using one-hot encoding to help with one of the graphs
 
